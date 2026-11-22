@@ -102,9 +102,9 @@ const SITE = {
 
   theme: {
 
-    palette: "rose",        // 👉 EDIT — colour: "slate" "forest" "sunset" "violet" "rose" "ocean" "mono"
+    palette: "ocean",        // 👉 EDIT — colour: "slate" "forest" "sunset" "violet" "rose" "ocean" "mono"
 
-    style: "flat",           // 👉 EDIT — the "look": "soft" (rounded, default) or "flat" (squared/editorial)
+    style: "soft",           // 👉 EDIT — the "look": "soft" (rounded, default) or "flat" (squared/editorial)
 
     defaultMode: "auto",     // "auto" follows the visitor's device · or force "light" / "dark"
 
@@ -172,13 +172,13 @@ const SITE = {
 
   site: {
 
-    url: "https://denzelvw.dev/",   // 👉 EDIT — your live web address
+    url: "https://eurekaa160.github.io",   // 👉 EDIT — your live web address
 
-    title: "DenzelVW | IT & Cybersecurity Portfolio",              // 👉 EDIT — shows in the browser tab & Google
+    title: "Eurekaa | IT Portfolio",              // 👉 EDIT — shows in the browser tab & Google
 
     description:                                          // 👉 EDIT — 1 sentence Google shows under your title
 
-      "Explore my projects in cybersecurity, Linux, networking, Python, databases, and self-hosted infrastructure.",
+      "Explore my projects as a beginner in IT.",
 
     ogImage: "assets/img/og-image.svg",   // 👉 EDIT — the picture shown when your link is shared (1200×630)
 
@@ -196,7 +196,7 @@ const SITE = {
 
   nav: {
 
-    brand: "DenzelVW",       // 👉 EDIT — your name or logo text (top-left)
+    brand: "Eurekaa",       // 👉 EDIT — your name or logo text (top-left)
 
     showThemeToggle: true,   // the light/dark switch
 
@@ -222,13 +222,13 @@ const SITE = {
 
     eyebrow: "Hi, my name is",         // the small line above your name
 
-    name: "Denzel Vassallo Wright",                  // 👉 EDIT — your full name
+    name: "Benjatiana Hari. R.",                  // 👉 EDIT — your full name
 
     nameHighlight: "",              // part of your name to underline in the accent colour ("" for none)
 
     tagline:                           // 👉 EDIT — one or two sentences about you
 
-      "IT student exploring cybersecurity, Linux, networking, and programming. I build things, break them, and learn how they work.",
+      "IT student exploring networking, and programming. I build things, break them, and learn how they work.",
 
     typewriter: true,                 // OPTIONAL typing animation on the name (off under reduced-motion)
 
@@ -258,7 +258,7 @@ const SITE = {
 
     glance: [
 
-      { icon: "map-pin",   label: "Based in",   value: "Malta",   href: "#about" },      // 👉 EDIT
+      { icon: "map-pin",   label: "Based in",   value: "Avon - France",   href: "#about" },      // 👉 EDIT
 
       { icon: "user",      label: "About",      value: "Who I am",    href: "#about" },      // 👉 EDIT
 
@@ -326,7 +326,7 @@ sections: [
 
     intro: "A little about me",                 // the short line under the section title
 
-    photo: "assets/img/portrait.svg",           // 👉 EDIT — your photo (square works best, \~600×600)
+    photo: "assets/img/id_pic.svg",           // 👉 EDIT — your photo (square works best, \~600×600)
 
     photoAlt: "A photo of me, hi :)",            // 👉 EDIT — describe the photo (for screen readers)
 
@@ -336,25 +336,25 @@ sections: [
 
     paragraphs: [
 
-      "Hello there! I'm Denzel! I'm a computer geek who loves anything tech, cute animals (Honorable mention: Guinea Pigs) and learning new things!",
+      "Hello there! I'm Eurekaa! I'm a computer geek who loves anything tech, cute animals (Honorable mention: Birds and Rabbits), candies, and learning new things!",
 
-      "I love experimenting and messing around with things like linux, self hosting interesting programs, and have an interest in projects that combine hardware and software to create something special and innovative.",
+      "I love experimenting and messing around with things like self hosting interesting programs, and have an interest in projects that combine hardware and software to create something special and innovative.",
 
       "Thanks for reading!",
 
     ],
 
-    interests: ["Cybersecurity", "Programming", "Linux", "Self-Hosting", "Networking", "Databases", "Hardware", "Electronics", "3D Printing", "Gaming", "Automation", "Open Source", "Raspberry Pi", "Homelabbing"], // 👉 EDIT — your tag chips
+    interests: [ "Programming", "Linux", "Self-Hosting", "Databases", "Hardware", "Gaming", "Automation", "Open Source", "Raspberry Pi", "Homelabbing"], // 👉 EDIT — your tag chips
 
     // Optional quick facts. Delete a line to hide it, or set quickFacts: [] to hide all.
 
     quickFacts: [
 
-      { label: "Location",  value: "Ħad-Dingli, Malta" },  // 👉 EDIT
+      { label: "Location",  value: "Avon, France" },  // 👉 EDIT
 
-      { label: "Languages", value: "English, Maltese" },             // 👉 EDIT
+      { label: "Languages", value: "English, French" },             // 👉 EDIT
 
-      { label: "Email",     value: "denvass2020@gmail.com" },   // 👉 EDIT
+      { label: "Email",     value: "harinambinintsoarakoto@gmail.com" },   // 👉 EDIT
 
     ],
 
@@ -378,11 +378,11 @@ sections: [
 
       { icon: "folder", text: "Building random projects with Python, SQL, and whatever else catches my interest." },
 
-      { icon: "pen", text: "Studying Computer Systems and Networks at MCAST, learning something new every day." },
+      { icon: "pen", text: "Studying Computer Systems and Programming, learning something new every day." },
 
       { icon: "wrench", text: "Tinkering with Linux servers, self-hosted services, and my homelab (and occasionally breaking things)." },
 
-      { icon: "user", text: "Exploring cybersecurity and working towards turning my passion for tech into a career." },
+      { icon: "user", text: "Exploring UI/UX and working towards turning my passion for tech into a career." },
 
     ],
 
@@ -458,9 +458,9 @@ sections: [
 
       {
 
-        title: "Advanced Diploma in IT (Computer Systems and Networks)",
+        title: "First year uni in IT",
 
-        org: "MCAST",
+        org: "ECE",
 
         dates: "2026 — Present",
 
@@ -468,11 +468,11 @@ sections: [
 
         bullets: [
 
-          "Studying networking, programming, databases, and computer systems.",
+          "Studying programming, databases, and computer systems.",
 
           "Developing practical skills through coursework and hands-on projects.",
 
-          "Working towards pursuing a degree in cybersecurity.",
+          "Working towards pursuing a degree in DevOps.",
 
         ],
 
@@ -512,7 +512,7 @@ sections: [
 
         bullets: [
 
-          "Building projects and solving programming challenges using Python.",
+          "Building projects and solving programming challenges using C.",
 
           "Designing relational databases using SQL and PostgreSQL.",
 
@@ -522,51 +522,51 @@ sections: [
 
       },
 
-      {
+      // {
 
-        title: "Cybersecurity Enthusiast",
+      //   title: "Cybersecurity Enthusiast",
 
-        org: "Personal Security Lab",
+      //   org: "Personal Security Lab",
 
-        dates: "Ongoing",
+      //   dates: "Ongoing",
 
-        logo: "",
+      //   logo: "",
 
-        bullets: [
+      //   bullets: [
 
-          "Exploring cybersecurity concepts through hands-on virtual labs.",
+      //     "Exploring cybersecurity concepts through hands-on virtual labs.",
 
-          "Practising network reconnaissance and vulnerability assessment using tools such as Nmap.",
+      //     "Practising network reconnaissance and vulnerability assessment using tools such as Nmap.",
 
-          "Learning about system vulnerabilities, exploitation techniques, and defensive security.",
+      //     "Learning about system vulnerabilities, exploitation techniques, and defensive security.",
 
-        ],
+      //   ],
 
-      },
+      // },
 
-      {
+      // {
 
-        title: "Bartender",
+      //   title: "Bartender",
 
-        org: "Il-Veduta Restaurant",
+      //   org: "Il-Veduta Restaurant",
 
-        dates: "Summer 2026",
+      //   dates: "Summer 2026",
 
-        logo: "",
+      //   logo: "",
 
-        bullets: [
+      //   bullets: [
 
-          "Prepared and served beverages in a busy restaurant environment.",
+      //     "Prepared and served beverages in a busy restaurant environment.",
 
-          "Worked closely with colleagues to ensure smooth and efficient service.",
+      //     "Worked closely with colleagues to ensure smooth and efficient service.",
 
-          "Developed communication, teamwork, and time management skills.",
+      //     "Developed communication, teamwork, and time management skills.",
 
-          "Learned to stay organised and work efficiently under pressure.",
+      //     "Learned to stay organised and work efficiently under pressure.",
 
-        ],
+      //   ],
 
-      },
+      // },
 
     ],
 
@@ -594,9 +594,9 @@ sections: [
 
       {
 
-        title: "Advanced Diploma in IT (Computer Systems and Networks)",
+        title: "Bachelor in IT - Application Development",
 
-        org: "MCAST",
+        org: "ECE",
 
         dates: "2026 — Present",
 
@@ -608,51 +608,51 @@ sections: [
 
           "Gaining practical experience through hands-on assignments and projects.",
 
-          "Planning to pursue a Bachelor's degree in Cybersecurity.",
+          "Planning to pursue a Bachelor's degree in DevOps.",
 
         ],
 
       },
 
-      {
+      // {
 
-        title: "Python in Practice",
+      //   title: "Python in Practice",
 
-        org: "ShipThatCode",
+      //   org: "ShipThatCode",
 
-        dates: "November 2026",
+      //   dates: "November 2026",
 
-        logo: "",
+      //   logo: "",
 
-        bullets: [
+      //   bullets: [
 
-          "Completed an intermediate-level Python programming course.",
+      //     "Completed an intermediate-level Python programming course.",
 
-          "Developed practical programming and problem-solving skills.",
+      //     "Developed practical programming and problem-solving skills.",
 
-        ],
+      //   ],
 
-      },
+      // },
 
-      {
+      // {
 
-        title: "Python Fundamentals",
+      //   title: "Python Fundamentals",
 
-        org: "ShipThatCode",
+      //   org: "ShipThatCode",
 
-        dates: "November 2026",
+      //   dates: "November 2026",
 
-        logo: "",
+      //   logo: "",
 
-        bullets: [
+      //   bullets: [
 
-          "Completed a course covering core Python programming concepts.",
+      //     "Completed a course covering core Python programming concepts.",
 
-          "Practised functions, data structures, and programming fundamentals.",
+      //     "Practised functions, data structures, and programming fundamentals.",
 
-        ],
+      //   ],
 
-      },
+      // },
 
       {
 
@@ -678,19 +678,19 @@ sections: [
 
         title: "Secondary Education — O-Levels",
 
-        org: "St Nicholas College, Dingli Secondary School",
+        org: "Les Bambinos II, Antananarivo 101, Madagascar",
 
-        dates: "Completed 2026",
+        dates: "Completed 2023",
 
         logo: "",
 
         bullets: [
 
-          "Completed secondary education and MATSEC examinations.",
+          "Completed secondary education.",
 
-          "Subjects included Mathematics, English Language, Maltese, Physics, Computing, and Biology.",
+          "Subjects included Mathematics, English Language, Philosophy, Physics and Chemistry, Computing, and Biology.",
 
-          "Also studied English Literature, Environmental Studies, and Religious Knowledge.",
+          "Also studied Malagasy Literature, Environmental Studies, and Religious Knowledge.",
 
         ],
 
@@ -698,19 +698,19 @@ sections: [
 
       {
 
-        title: "ICT C3 — MQF Level 3",
+        title: "Bacclauréat Général - Serie C - Mention Assez Bien",
 
-        org: "St Nicholas College, Dingli Secondary School",
+        org: "Lycée Les Bambinos II",
 
-        dates: "July 2026",
+        dates: "AUgust 2023",
 
         logo: "",
 
         bullets: [
 
-          "Achieved Grade A in ICT at MQF Level 3.",
+          "Achieved Grade C in Baccalauréat Général Série C.",
 
-          "Developed foundational knowledge and practical ICT skills.",
+          "Developed foundational knowledge and practical skills.",
 
         ],
 
@@ -746,7 +746,7 @@ sections: [
 
         name: "Programming & Databases",
 
-        items: ["Python", "SQL", "PostgreSQL", "SQL Server", "Bash", "Git"],
+        items: ["Python", "SQL", "PostgreSQL", "Git"],
 
       },
 
@@ -754,41 +754,41 @@ sections: [
 
         name: "Operating Systems",
 
-        items: ["Linux", "Debian", "Ubuntu", "Kali Linux", "Windows", "Windows Server"],
+        items: ["Linux", "Debian", "Ubuntu", "Kali Linux", "Windows"],
 
       },
 
-      {
+      // {
 
-        name: "Networking & Cybersecurity",
+      //   name: "Networking & Cybersecurity",
 
-        items: ["TCP/IP", "DNS", "DHCP", "VPNs", "Nmap", "Metasploit", "Wireshark", "Network Troubleshooting"],
+      //   items: ["TCP/IP", "DNS", "DHCP", "VPNs", "Nmap", "Metasploit", "Wireshark", "Network Troubleshooting"],
 
-      },
+      // },
 
-      {
+      // {
 
-        name: "Self-Hosting & Infrastructure",
+      //   name: "Self-Hosting & Infrastructure",
 
-        items: ["Docker", "Docker Compose", "Portainer", "Pi-hole", "Unbound", "Tailscale", "Uptime Kuma", "Raspberry Pi"],
+      //   items: ["Docker", "Docker Compose", "Portainer", "Pi-hole", "Unbound", "Tailscale", "Uptime Kuma", "Raspberry Pi"],
 
-      },
+      // },
 
       {
 
         name: "Development Tools",
 
-        items: ["GitHub", "VS Code", "PyCharm", "DBeaver", "SSMS", "Oracle SQL Developer Data Modeler", "VMware"],
+        items: ["GitHub", "VS Code", "Oracle SQL Developer Data Modeler", "VMware"],
 
       },
 
-      {
+      // {
 
-        name: "Hardware & Electronics",
+      //   name: "Hardware & Electronics",
 
-        items: ["PC Building", "Hardware Troubleshooting", "3D Printing", "Raspberry Pi", "Bambu Studio"],
+      //   items: ["PC Building", "Hardware Troubleshooting", "3D Printing", "Raspberry Pi", "Bambu Studio"],
 
-      },
+      // },
 
       {
 
@@ -1086,7 +1086,7 @@ sections: [
 
     text: "I'm always happy to chat — about work, ideas, or just to say hi. Drop me a line and I'll get back to you.", // 👉 EDIT
 
-    email: "denvass2020@gmail.com",                     // 👉 EDIT — your email address
+    email: "harinambinintsoarakoto@gmail.com",                     // 👉 EDIT — your email address
 
     emailButtonLabel: "Send me an email",
 
@@ -1132,7 +1132,7 @@ sections: [
 
       label: "View the code on GitHub",     // 👉 EDIT
 
-      url: "https://github.com/DenzelVW-xyz/portfolio-starter-kit",  // 👉 EDIT — your repo (or "" to hide)
+      url: "",  // 👉 EDIT — your repo (or "" to hide)
 
     },
 
@@ -1160,15 +1160,15 @@ sections: [
 
   social: [
 
-    { icon: "github",   label: "GitHub",   url: "https://github.com/DenzelVW-xyz" },   // 👉 EDIT
+    { icon: "github",   label: "GitHub",   url: "https://github.com/Eurekaa160" },   // 👉 EDIT
 
-    { icon: "linkedin", label: "LinkedIn", url: "https://linkedin.com/in/denzel-vassallo-wright" },  // 👉 EDIT
+    // { icon: "linkedin", label: "LinkedIn", url: "https://linkedin.com/in/denzel-vassallo-wright" },  // 👉 EDIT
 
-    { icon: "instagram",label: "Instagram",url: "https://instagram.com/denzelvassallowright" },  // 👉 EDIT
+    // { icon: "instagram",label: "Instagram",url: "https://instagram.com/denzelvassallowright" },  // 👉 EDIT
 
-    { icon: "globe",    label: "Website",  url: "" },                                    // 👉 EDIT (add a url to show)
+    // { icon: "globe",    label: "Website",  url: "" },                                    // 👉 EDIT (add a url to show)
 
-    //{ icon: "mail",     label: "Email",    url: "mailto:hello@example.com" },            // 👉 EDIT
+    { icon: "mail",     label: "Email",    url: "harinambinintsoarakoto@gmail.com" },            // 👉 EDIT
 
   ],
 
